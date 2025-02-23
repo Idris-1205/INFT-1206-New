@@ -1,0 +1,33 @@
+/* 
+Author: Aidress Qadeer
+Date: February 22, 2025
+Description: A project showcasing a cool-looking box styled using CSS, ensuring consistent styling and responsiveness using HTML and CSS.
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.cool-box {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+p {
+  font-size: 16px;
+}
