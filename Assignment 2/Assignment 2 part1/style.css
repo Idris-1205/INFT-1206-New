@@ -1,0 +1,73 @@
+/*
+Author: Aidress Qadeer, Nathan Betton, Waris, Sameer
+Date: February 5, 2025
+Description: A simple Mozilla splash page with beginner 
+level CSS styling and visual enhancements
+*/
+
+body {
+    /* Set font, center text, and apply background image */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    /* Apply blur effect, padding, and rounded corners to header */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+     /* Set text color for headings */
+    color: white;
+}
+
+section {
+    /* Style sections with margin, padding, blur effect, and rounded corners */
+    margin: 20px auto;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+
+
+img {
+    /* Style images with width, auto height, rounded corners, and transitions */
+    width: 300;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+img:hover {
+    /* Apply transformations and shadow on hover */
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 20px white;
+}
+
+iframe {
+    /* Style iframe with width, height, rounded corners, and shadow */
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+footer {
+     /* Apply blur effect, padding, margin, and rounded corners to footer */
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

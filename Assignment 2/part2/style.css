@@ -1,0 +1,111 @@
+/*General styles for the page*/
+
+body {
+    font-family: 'Tatillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-size: 1.5em;
+    
+}
+/*Header/Logo*/ 
+header img {
+    position: inherit;
+   padding: 10px;
+    right: 10px;
+    width: 110px;
+    height: 100px;
+    z-index: 100;
+   
+}
+
+
+
+
+h1 {
+    color: white;
+    margin-top: 20px;
+
+}
+
+/*Navigation menu styles*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+/*Style for list items in the navigation element*/
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 3px;
+
+}
+/*Hover effect and color for navigation menu */
+nav ul li a:hover {
+    background-color: grey;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+
+}
+
+/* Container to center items */
+.container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    gap: 20px; /* Space between items */
+}
+
+
+/*Image Gallery styles and transitions*/
+
+.item {
+    display: flex;
+    padding: 10px;
+    border: 10px solid black;
+    background-color: black;
+    transition: transform 0.9s;
+}
+
+
+.item:hover .image-container img, 
+.item:hover .description {
+    transform:  scale(1.02); /* Applies zoom effect for both image and description */
+    transition: transform 0.8s; /* Adds transition time of 0.9 seconds */
+}
+
+/*Footer*/
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.0em;
+}
+
