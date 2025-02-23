@@ -68,12 +68,27 @@ nav {
     padding: 0.5em;
 }
 
-  
-  nav a {
+/* Navigation Hover Effect */
+nav a {
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
-  }
+    transition: background 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
 
   /* Image Grid Layout */
 .photos {
