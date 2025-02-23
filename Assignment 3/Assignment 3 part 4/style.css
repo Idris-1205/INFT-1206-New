@@ -81,6 +81,9 @@ nav {
     padding: 0;
   }
 
-  .feature {
-      width: 200px;
-  }
+  /* Float image inside article */
+.feature {
+    float: left;
+    width: 200px;
+    margin: 0 20px 10px 0;
+}
