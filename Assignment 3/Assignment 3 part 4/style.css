@@ -17,11 +17,32 @@ body {
     max-width: 980px;
   }
   
-  .grid {
+  /* Two-Column Layout */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
-  }
+}
+
+/* Make columns flexible */
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+/* Responsive Layout */
+@media (max-width: 800px) {
+    .grid {
+        flex-direction: column;
+    }
+}
+
   
   nav {
     background-color: #000;
